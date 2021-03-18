@@ -53,6 +53,7 @@ let displayProducts = ((products) => {
     // returns a template string for each product, values are inserted using ${ }
     // <tr> is a table row and <td> a table division represents a column
     // product_price is converted to a Number value and displayed with two decimal places
+    // icons - https://icons.getbootstrap.com/
     let row = `<tr>
                 <td>${product._id}</td>
                 <td>${product.product_name}</td>
